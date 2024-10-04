@@ -19,7 +19,21 @@ The goal of this project is to design a comprehensive data analysis system for b
 4 Seasonal trends and growth analysis
  - Track sales performance over time to dentify seasonal peak and dips.
 
+5 Visualization
 
+### Tools used
+- SQL - For data extraction, aggregation and performing complex analysis queries
+- Excel - For advanced data visualization and dashboard creation
+
+### Derived Metrics
+- Total sales
+- Total profit
+- Price per item
+- Top 2 brand by cost
+- Top 3 sales rep
+
+### Data Analysis
+Codes Used
 ```SQL
 
 SELECT BRANDS, SUM(COST), SUM(QUANTITY), SUM(PROFIT) 
@@ -54,5 +68,6 @@ FROM Breweries_DB.`international breweries`
 
 SELECT DISTINCT BRANDS, (COST/QUANTITY) 
 AS cost_per_item, (PROFIT/QUANTITY) AS profit_per_item 
-FROM Breweries_DB.`international breweries`ORDER BY cost_per_item DESC LIMIT 2; ;
+FROM Breweries_DB.`international breweries`ORDER BY cost_per_item DESC LIMIT 2;
 ```
+### Data Visualization
