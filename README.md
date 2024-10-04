@@ -21,6 +21,7 @@ The goal of this project is to design a comprehensive data analysis system for b
 
 
 ```SQL
+
 SELECT BRANDS, SUM(COST), SUM(QUANTITY), SUM(PROFIT) 
   FROM Breweries_DB.`international breweries`
   GROUP BY BRANDS;
@@ -49,5 +50,9 @@ SELECT SUM(COST), SUM(PROFIT) AS TOTAL_PROFIT, SALES_REP
 
 SELECT DISTINCT BRANDS, (COST/QUANTITY) 
 AS cost_per_item, (PROFIT/QUANTITY) AS profit_per_item 
-FROM Breweries_DB.`international breweries` ;
+FROM Breweries_DB.`international breweries`
+
+SELECT DISTINCT BRANDS, (COST/QUANTITY) 
+AS cost_per_item, (PROFIT/QUANTITY) AS profit_per_item 
+FROM Breweries_DB.`international breweries`ORDER BY cost_per_item DESC LIMIT 2; ;
 ```
