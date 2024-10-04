@@ -47,5 +47,7 @@ SELECT SUM(COST), SUM(PROFIT) AS TOTAL_PROFIT, SALES_REP
   GROUP BY SALES_REP ORDER BY TOTAL_PROFIT
   LIMIT 3; 
 
-SELECT (PROFIT/COST)*100, BRANDS FROM Breweries_DB.`international breweries` ;
+SELECT DISTINCT BRANDS, (COST/QUANTITY) 
+AS cost_per_item, (PROFIT/QUANTITY) AS profit_per_item 
+FROM Breweries_DB.`international breweries` ;
 ```
