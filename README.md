@@ -3,7 +3,7 @@
 ## Project Title : Breweries Sales Analysis and Perfomance Dashboard
 
 ### Objective : 
-The goal of this project is to design a comprehensive data analysis system for breweries database that tracks sales performance, profitability and regional distribution of products. This analysisn will help the company optimize its sales strategies and identify areas of growth.
+The goal of this project is to design a comprehensive data analysis system for breweries database that tracks sales performance, profitability and regional distribution of products. This analysis will help the company optimize its sales strategies and identify areas of growth.
 
 ### Scope :
 1 Sales perfomance analysis
@@ -29,8 +29,9 @@ The goal of this project is to design a comprehensive data analysis system for b
 - Total sales
 - Total profit
 - Price per item
-- Top 2 brand by cost
+- Top 5 brand by profit
 - Top 3 sales rep
+  
 
 ### Data Analysis :
 Codes Used
