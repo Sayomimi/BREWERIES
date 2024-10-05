@@ -2,10 +2,10 @@
 
 ## Project Title : Breweries Sales Analysis and Perfomance Dashboard
 
-### Objective: 
+### Objective : 
 The goal of this project is to design a comprehensive data analysis system for breweries database that tracks sales performance, profitability and regional distribution of products. This analysisn will help the company optimize its sales strategies and identify areas of growth.
 
-### Scope
+### Scope :
 1 Sales perfomance analysis
  - Calculate total sales, total quuantity sold and total profit for different categories such as brands, sales rep and countries
  - Identify the top performing brands and sales rep
@@ -21,18 +21,18 @@ The goal of this project is to design a comprehensive data analysis system for b
 
 5 Visualization
 
-### Tools used
+### Tools Used :
 - SQL - For data extraction, aggregation and performing complex analysis queries
 - Excel - For advanced data visualization and dashboard creation
 
-### Derived Metrics
+### Derived Metrics :
 - Total sales
 - Total profit
 - Price per item
 - Top 2 brand by cost
 - Top 3 sales rep
 
-### Data Analysis
+### Data Analysis :
 Codes Used
 ```SQL
 
@@ -70,4 +70,4 @@ SELECT DISTINCT BRANDS, (COST/QUANTITY)
 AS cost_per_item, (PROFIT/QUANTITY) AS profit_per_item 
 FROM Breweries_DB.`international breweries`ORDER BY cost_per_item DESC LIMIT 2;
 ```
-### Data Visualization
+### Data Visualization :
