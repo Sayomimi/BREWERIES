@@ -7,7 +7,7 @@ The goal of this project is to design a comprehensive data analysis system for b
 
 ### Scope :
 1 Sales perfomance analysis
- - Calculate total sales, total quuantity sold and total profit for different categories such as brands, sales rep and countries
+ - Calculate total sales, total quantity sold and total profit for different categories such as brands, sales rep and countries
  - Identify the top performing brands and sales rep
    
 2 Profitability analysis
