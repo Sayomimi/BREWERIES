@@ -73,12 +73,25 @@ FROM Breweries_DB.`international breweries`ORDER BY cost_per_item DESC LIMIT 2;
 ```
 ### Data Visualization :
 
+The 'Region column' and 'Year column' are in a slicer connected to all charts
+
+Monthly profit trends
 ![Breweries Linechart](https://github.com/user-attachments/assets/3b6a92e5-f4c9-4c5b-8f52-1523208dd883)
 
 
+Sales rep performance
 ![Breweries piechart](https://github.com/user-attachments/assets/c50b351c-5fb0-4982-ba77-1ba548383495)
 
 
+Total sales and profit overview
 ![Breweries barchart](https://github.com/user-attachments/assets/47128856-3cda-4a37-869e-e57a94ee8354)
+
+
+Total quantity of each brand
+![Breweries ring chart](https://github.com/user-attachments/assets/d97e885b-ee48-428f-a637-821acfc89006)
+
+
+Total profit across all counries
+![Breweries Countyr Barchart](https://github.com/user-attachments/assets/cc9d3f00-89c8-40d4-b665-6761fdaa6fa4)
 
 
