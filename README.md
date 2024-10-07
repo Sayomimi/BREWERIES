@@ -76,5 +76,9 @@ FROM Breweries_DB.`international breweries`ORDER BY cost_per_item DESC LIMIT 2;
 ![Breweries Linechart](https://github.com/user-attachments/assets/3b6a92e5-f4c9-4c5b-8f52-1523208dd883)
 
 
-![Breweries Barchart](https://github.com/user-attachments/assets/b539ebbe-ea27-4036-93d8-4e8234295bde)
+![Breweries piechart](https://github.com/user-attachments/assets/c50b351c-5fb0-4982-ba77-1ba548383495)
+
+
+![Breweries barchart](https://github.com/user-attachments/assets/47128856-3cda-4a37-869e-e57a94ee8354)
+
 
